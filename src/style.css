@@ -40,7 +40,7 @@ h2 {
     margin-left: 110px;
 }
 
-#author, #book, #characters {
+#author, #book, #characters, #changed {
     margin: 50px 30px 30px 30px;
 }
 
@@ -63,7 +63,8 @@ h2 {
 
 #character-description {
     border: 2px solid #514249;
-    padding: 10px;
+    padding: 30px;
     margin: 40px;
     text-align: center;
+    font-size: 20px;
 }
