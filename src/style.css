@@ -11,7 +11,41 @@ h1 {
     padding: 15px;
 }
 
-#menu-bar {
+h2 {
+    color:#514249;
+}
+
+.logo{
+    max-width: 50px;
+}
+.navbar-grey {
+    background-color: var(--secondary-color);
+}
+.author-image {
+    max-width: 350px;
+    border: 5px solid #514249;
+    border-radius: 4px;
+}
+.card{
+    border-color: var(--primary-color);
+}
+.card-text {
+    text-align: justify;
+}
+
+.book-image {
+    max-width: 280px;
+    border: 5px solid #514249;
+    border-radius: 4px;
+    margin-left: 110px;
+}
+
+#author, #book, #characters {
+    margin: 50px 30px 30px 30px;
+}
+
+#quote {
+    margin: 50px 30px 30px 30px;
     background-color: var(--primary-color);
     border-radius: var(--border-radius);
 }
@@ -19,11 +53,17 @@ h1 {
 #button {
     border: none;
     background-color: var(--primary-color);
-    color: #fff;
+    font-size: 16px;
 }
 
-#quote {
-    margin-top: 50px;
-    background-color: var(--primary-color);
-    border-radius: var(--border-radius);
+#button:hover{
+    background-color: #514249;
+    font-weight:bolder;
+}
+
+#character-description {
+    border: 2px solid #514249;
+    padding: 10px;
+    margin: 40px;
+    text-align: center;
 }
