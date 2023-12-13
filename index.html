@@ -3,25 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,100;0,200;0,300;0,400;0,600;1,400;1,600&Red+Hat+Mono:wght@300;400;500;700&family=Satisfy&family=Xanh+Mono&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <title>Document</title>
     <link rel="stylesheet" href="src/style.css">
 </head>
 <body>
-   <h1>
-    A tree grows in Brooklyn
-   </h1>
-   <nav class="navbar navbar-expand-lg navbar-grey">
+   <nav class="navbar fixed-top navbar-expand-lg navbar-grey">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="img/tree.png" alt="" class="logo"></a>
+      <a class="navbar-brand" href="#home"><img src="img/tree.png" alt="" class="logo"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
           <a class="nav-link" href="#author">Author</a>
           <a class="nav-link" href="#book">Book</a>
           <a class="nav-link" href="#characters">Characters</a>
@@ -30,9 +29,12 @@
       </div>
     </div>
   </nav>
+  <h1 id="home">
+    A tree grows in Brooklyn
+   </h1>
    <div class="container">
     <div class="row">
-<div class="col" id="quote"><p>"Let me be something every minute of every hour of my life. Let me be gay; let me be sad. Let me be cold; let me be warm. Let me be hungry...have too much to eat. Let me be ragged or well dressed. Let me be sincere - be deceitful. Let me be truthful; let me be a liar. Let me be honorable and let me sin. Only let me be something every blessed minute. And when I sleep, let me dream all the time so that not one little piece of living is ever lost."</p></div>
+<div class="col-sm-6" id="quote"><p><strong>"Let me be something every minute of every hour of my life.</strong> Let me be gay; let me be sad. Let me be cold; let me be warm. Let me be hungry...have too much to eat. Let me be ragged or well dressed. Let me be sincere - be deceitful. Let me be truthful; let me be a liar. Let me be honorable and let me sin.<strong> Only let me be something every blessed minute.</strong> And when I sleep, let me dream all the time so that not one little piece of living is ever lost."</p></div>
     </div>
     <div class="row" id="author">
         <h2>About the Author</h2>
@@ -65,16 +67,19 @@
     </div>
     <div class="row" id="characters">
         <h2>Meet the characters</h2>
-        <div class="col-md-3" id="character-description">Francis</div>
-        <div class="col-md-3" id="character-description">Katie</div>
-        <div class="col-md-3" id="character-description">Johnny</div>
-        <div class="col-md-3" id="character-description">Neeley</div>
-        <div class="col-md-3" id="character-description">Aunt Sissy</div>
-        <div class="col-md-3" id="character-description">Mary</div>
+        <div class="col-md-3" id="character-description" data-hover="A tenacious spirit in the heart of Brooklyn's challenges, finds strength in literature and dreams. 📚✨">Francis</div>
+        <div class="col-md-3" id="character-description" data-hover="A determined mother in the tenements, battles poverty with resilience and unwavering love for her family. 💪❤️">Katie</div>
+        <div class="col-md-3" id="character-description" data-hover="A dreamer with a fragile heart, paints a world of hope and imagination amidst life's hardships. 🎨✨">Johnny</div>
+        <div class="col-md-3" id="character-description" data-hover="Francie's resilient brother, shares the journey through adversity, embodying strength in unity.🤝💪">Neeley</div>
+        <div class="col-md-3" id="character-description" data-hover="Free-spirited and unconventional, adds a touch of unpredictability to the family's struggles and triumphs. 🌼🌀">Aunt Sissy</div>
+        <div class="col-md-3" id="character-description" data-hover="The matriarch, anchors the family with wisdom and love, creating a foundation for resilience and survival. 🌳❤️">Mary</div>
     </div>
     <div class="row" id="changed">
         <h2>How this book changed me</h2>
+        <p id="dreamer"><strong>"A Tree Grows in Brooklyn"</strong> became my guiding light, much like the tenacious tree pushing through challenges. As a woman, I resonated with the struggle of feeling deserving in a world that often questions it. The characters mirrored the exhaustion and challenges I've faced pursuing dreams, a sentiment heightened for women in developing countries. This novel illuminated the weariness but also the enduring strength required. It's a personal revelation that, against the odds, I can grow and claim my place, just like the tree in Brooklyn. Betty Smith's narrative stirred a deep recognition of my own journey, highlighting the power of dreams and the unwavering resilience within.</p>
+
     </div>
+      
 </div>
    <script src="src/app.js"></script>
 </body>
