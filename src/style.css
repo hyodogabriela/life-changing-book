@@ -34,6 +34,12 @@ h5 {
     background-color: var(--secondary-color);
    
 }
+.temperature-wrapper{
+    border-radius: var(--border-radius);
+    border: 1px solid #514249;
+    padding: 40px;
+
+}
 .author-image {
     max-width: 350px;
     border: 5px solid #514249;
