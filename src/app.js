@@ -9,9 +9,12 @@ axios.get(apiUrl)
     let description = response.data.condition.description;
     let descriptionElement = document.getElementById('descriptionElement');
     descriptionElement.innerHTML = description;
+    let iconElement = document.querySelector("#icon");
+    iconElement.innerHTML = `<img src="${response.data.condition.icon_url}" class="weather-icon">`;
     let temperature = response.data.temperature.current;
     let temperatureDisplay = document.getElementById('temperatureDisplay');
-    temperatureDisplay.innerHTML = Math.round(temperature); 
+    temperatureDisplay.innerHTML = Math.round(temperature);
+  
   });
 //   .catch(error => {
 //     console.error('Error fetching temperature:', error);

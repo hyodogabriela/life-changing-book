@@ -19,7 +19,10 @@ h2 {
     font-family: 'Xanh Mono', monospace;
     font-size: 40px;
 }
-
+h3 {
+    color: #514249;
+    text-align: center;
+}
 h5 {
     color:#514249;
     font-family: 'Xanh Mono', monospace;
@@ -34,12 +37,12 @@ h5 {
     background-color: var(--secondary-color);
    
 }
-.temperature-wrapper{
-    border-radius: var(--border-radius);
-    border: 1px solid #514249;
-    padding: 40px;
 
+.temperature-wrapper{
+    display: flex;
+    justify-content: space-evenly;
 }
+
 .author-image {
     max-width: 350px;
     border: 5px solid #514249;
@@ -63,6 +66,25 @@ h5 {
     border-radius: 4px;
     margin-left: 110px;
     box-shadow: var(--box-shadow);
+}
+
+#weather{
+    border-radius: var(--border-radius);
+    border: 2px solid #514249;
+    padding: 20px;
+    max-width: 350px;
+    margin-left: 60px;
+    margin-right: 40px;
+}
+
+#temperatureDisplay {
+    font-family: 'Red Hat Mono', monospace;
+    font-size: 70px;
+}
+#temperature-unit{
+    font-family: 'Red Hat Mono', monospace;
+    font-size: 40px;
+    line-height: 80px;
 }
 
 #author, #book, #characters, #changed {
