@@ -16,8 +16,3 @@ axios.get(apiUrl)
     temperatureDisplay.innerHTML = Math.round(temperature);
   
   });
-//   .catch(error => {
-//     console.error('Error fetching temperature:', error);
-//     const temperatureDisplay = document.getElementById('temperatureDisplay');
-//     temperatureDisplay.innerHTML = `<p>Error fetching temperature for ${city}</p>`;
-//   });
