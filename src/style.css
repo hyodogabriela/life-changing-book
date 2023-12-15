@@ -40,7 +40,12 @@ h5 {
 
 .temperature-wrapper{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+}
+
+.weather-icon {
+    max-width: 140px;
+    line-height: 50px;
 }
 
 .author-image {
@@ -70,7 +75,8 @@ h5 {
 
 #weather{
     border-radius: var(--border-radius);
-    border: 2px solid #514249;
+    border: 2px solid var(--secondary-color);
+    box-shadow: var(--box-shadow);
     padding: 20px;
     max-width: 350px;
     margin-left: 60px;
@@ -78,13 +84,26 @@ h5 {
 }
 
 #temperatureDisplay {
+    margin: 0px;
     font-family: 'Red Hat Mono', monospace;
     font-size: 70px;
+    color: var(--primary-color);
 }
-#temperature-unit{
+#temperature-unit {
     font-family: 'Red Hat Mono', monospace;
     font-size: 40px;
     line-height: 80px;
+    color: var(--primary-color);
+}
+
+
+#descriptionElement {
+    font-family: 'Red Hat Mono', monospace;
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 83px;
+    color: var(--secondary-color);
 }
 
 #author, #book, #characters, #changed {
@@ -138,4 +157,3 @@ h5 {
     color: #fff;
     font-weight: 500;
 }
-
