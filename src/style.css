@@ -157,3 +157,9 @@ h5 {
     color: #fff;
     font-weight: 500;
 }
+
+#footer {
+    font-family: 'Red Hat Mono', monospace;
+    text-align:center;
+    margin-top: 50px;
+}
